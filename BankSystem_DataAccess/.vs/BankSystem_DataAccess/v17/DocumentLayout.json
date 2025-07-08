@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E856B70-CC9F-4F18-9357-546BFF62F397}|..\\TryAccessLayer\\BankSystem_Testing.vbproj|c:\\users\\ka m al\\desktop\\tryaccesslayer\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E856B70-CC9F-4F18-9357-546BFF62F397}|..\\TryAccessLayer\\BankSystem_Testing.vbproj|c:\\users\\ka m al\\desktop\\tryaccesslayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\clspersonentity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|solutionrelative:clspersonentity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\clscliententity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|solutionrelative:clscliententity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\connectionsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|solutionrelative:connectionsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|c:\\users\\ka m al\\desktop\\banksystem_dataaccess\\backupandrestoredb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|BankSystem_DataAccess.vbproj|solutionrelative:backupandrestoredb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\TryAccessLayer\\App.config",
+              "RelativeDocumentMoniker": "..\\TryAccessLayer\\App.config",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\TryAccessLayer\\App.config",
+              "RelativeToolTip": "..\\TryAccessLayer\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-15T01:14:00.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\TryAccessLayer\\Main.vb",
+              "RelativeDocumentMoniker": "..\\TryAccessLayer\\Main.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\TryAccessLayer\\Main.vb [Design]",
+              "RelativeToolTip": "..\\TryAccessLayer\\Main.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-15T01:13:45.921Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BackUpAndRestoreDB.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\BackUpAndRestoreDB.vb",
+              "RelativeDocumentMoniker": "BackUpAndRestoreDB.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\BackUpAndRestoreDB.vb",
+              "RelativeToolTip": "BackUpAndRestoreDB.vb",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T14:36:17.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConnectionSettings.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\ConnectionSettings.vb",
+              "RelativeDocumentMoniker": "ConnectionSettings.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\ConnectionSettings.vb",
+              "RelativeToolTip": "ConnectionSettings.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T14:40:05.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsClientEntity.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\clsClientEntity.vb",
+              "RelativeDocumentMoniker": "clsClientEntity.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\clsClientEntity.vb",
+              "RelativeToolTip": "clsClientEntity.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T14:35:44.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsPersonEntity.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "RelativeDocumentMoniker": "clsPersonEntity.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "RelativeToolTip": "clsPersonEntity.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T14:31:07.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

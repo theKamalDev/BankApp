@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BankSystem.My.MyApplication</StartupObject>
+    <RootNamespace>BankSystem</RootNamespace>
+    <AssemblyName>BankSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BankSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BankSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="ExCSS, Version=4.1.4.0, Culture=neutral, PublicKeyToken=bdbe16be9b936b9a, processorArchitecture=MSIL">
+      <HintPath>packages\ExCSS.4.1.4\lib\net452\ExCSS.dll</HintPath>
+    </Reference>
+    <Reference Include="Fizzler, Version=1.2.1.0, Culture=neutral, PublicKeyToken=4ebff4844e382110, processorArchitecture=MSIL">
+      <HintPath>packages\Fizzler.1.2.1\lib\netstandard2.0\Fizzler.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.WinForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.WinForms.1.0.5\lib\net472\FontAwesome.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GumroadLicensing, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\GumroadLicensing.2.0.2\lib\net45\GumroadLicensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Kimtoo.MenuBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Kimtoo.MenuBar.1.0.2\lib\net472\Kimtoo.MenuBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg, Version=3.4.0.0, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
+      <HintPath>packages\Svg.3.4.3\lib\net462\Svg.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlobalUser.vb" />
+    <Compile Include="Gui\Clients\AddClientForm.Designer.vb">
+      <DependentUpon>AddClientForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Clients\AddClientForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Clients\ClientCardControl.Designer.vb">
+      <DependentUpon>ClientCardControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Clients\ClientCardControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Clients\ClientsControl.Designer.vb">
+      <DependentUpon>ClientsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Clients\ClientsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Clients\DeleteClientForm.Designer.vb">
+      <DependentUpon>DeleteClientForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Clients\DeleteClientForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Clients\EditClientForm.Designer.vb">
+      <DependentUpon>EditClientForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Clients\EditClientForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Clients\TransactionForm.Designer.vb">
+      <DependentUpon>TransactionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Clients\TransactionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\LogRegisters\LogRegistersControl.Designer.vb">
+      <DependentUpon>LogRegistersControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\LogRegisters\LogRegistersControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\People\AddNewPerson.Designer.vb">
+      <DependentUpon>AddNewPerson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\People\AddNewPerson.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Transfer\TransfersControl.Designer.vb">
+      <DependentUpon>TransfersControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Transfer\TransfersControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Users\AddUserForm.Designer.vb">
+      <DependentUpon>AddUserForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Users\AddUserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Users\DeleteUserForm.Designer.vb">
+      <DependentUpon>DeleteUserForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Users\DeleteUserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Users\EditUserForm.Designer.vb">
+      <DependentUpon>EditUserForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Users\EditUserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Users\UserCardControl.Designer.vb">
+      <DependentUpon>UserCardControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Users\UserCardControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Users\UsersControl.Designer.vb">
+      <DependentUpon>UsersControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Users\UsersControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckConnection.Designer.vb">
+      <DependentUpon>CheckConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Gui\Clients\AddClientForm.resx">
+      <DependentUpon>AddClientForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Clients\ClientCardControl.resx">
+      <DependentUpon>ClientCardControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Clients\ClientsControl.resx">
+      <DependentUpon>ClientsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Clients\DeleteClientForm.resx">
+      <DependentUpon>DeleteClientForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Clients\EditClientForm.resx">
+      <DependentUpon>EditClientForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Clients\TransactionForm.resx">
+      <DependentUpon>TransactionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\LogRegisters\LogRegistersControl.resx">
+      <DependentUpon>LogRegistersControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\People\AddNewPerson.resx">
+      <DependentUpon>AddNewPerson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Transfer\TransfersControl.resx">
+      <DependentUpon>TransfersControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Users\AddUserForm.resx">
+      <DependentUpon>AddUserForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Users\DeleteUserForm.resx">
+      <DependentUpon>DeleteUserForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Users\EditUserForm.resx">
+      <DependentUpon>EditUserForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Users\UserCardControl.resx">
+      <DependentUpon>UserCardControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Users\UsersControl.resx">
+      <DependentUpon>UsersControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckConnection.resx">
+      <DependentUpon>CheckConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankSystem_Business\BankSystem_Business.vbproj">
+      <Project>{7205ce1f-ad73-4c1e-bbd3-a5263123c2f8}</Project>
+      <Name>BankSystem_Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BankSystem_DataAccess\BankSystem_DataAccess.vbproj">
+      <Project>{a2006162-4fa3-4dee-95fb-c4323a9bfea3}</Project>
+      <Name>BankSystem_DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\icons8-menu-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-property-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-group-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-group-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-group-96 %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-group-96 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transactions-962.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ledger-96 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-properties-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-document-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-property-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-button-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-writer-male-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minus-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-user-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-property-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-deposit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-withdraw-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-withdraw-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-deposit-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-withdraw-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gui\Users\resources\icons8-add-properties-64.png" />
+    <Content Include="Gui\Users\resources\icons8-add-user-male-64.png" />
+    <Content Include="Gui\Users\resources\icons8-add-user-male-641.png" />
+    <Content Include="Gui\Users\resources\icons8-close-120.png" />
+    <Content Include="Gui\Users\resources\icons8-close-80.png" />
+    <Content Include="Gui\Users\resources\icons8-close-button-96.png" />
+    <Content Include="Gui\Users\resources\icons8-delete-document-64.png" />
+    <Content Include="Gui\Users\resources\icons8-deposit-64.png" />
+    <Content Include="Gui\Users\resources\icons8-deposit-641.png" />
+    <Content Include="Gui\Users\resources\icons8-edit-property-64.png" />
+    <Content Include="Gui\Users\resources\icons8-exit-64 %281%29.png" />
+    <Content Include="Gui\Users\resources\icons8-exit-64 %281%291.png" />
+    <Content Include="Gui\Users\resources\icons8-group-64.png" />
+    <Content Include="Gui\Users\resources\icons8-group-641.png" />
+    <Content Include="Gui\Users\resources\icons8-group-96 %281%29.png" />
+    <Content Include="Gui\Users\resources\icons8-group-96 %281%291.png" />
+    <Content Include="Gui\Users\resources\icons8-group-96 %282%29.png" />
+    <Content Include="Gui\Users\resources\icons8-group-96 %282%291.png" />
+    <Content Include="Gui\Users\resources\icons8-group-96 %283%29.png" />
+    <Content Include="Gui\Users\resources\icons8-group-96 %283%291.png" />
+    <Content Include="Gui\Users\resources\icons8-group-96.png" />
+    <Content Include="Gui\Users\resources\icons8-group-961.png" />
+    <Content Include="Gui\Users\resources\icons8-ledger-96 %281%29.png" />
+    <Content Include="Gui\Users\resources\icons8-ledger-96 %281%291.png" />
+    <Content Include="Gui\Users\resources\icons8-ledger-96.png" />
+    <Content Include="Gui\Users\resources\icons8-ledger-961.png" />
+    <Content Include="Gui\Users\resources\icons8-log-96.png" />
+    <Content Include="Gui\Users\resources\icons8-log-961.png" />
+    <Content Include="Gui\Users\resources\icons8-male-user-100.png" />
+    <Content Include="Gui\Users\resources\icons8-menu-64.png" />
+    <Content Include="Gui\Users\resources\icons8-minus-64.png" />
+    <Content Include="Gui\Users\resources\icons8-search-property-64.png" />
+    <Content Include="Gui\Users\resources\icons8-show-property-64.png" />
+    <Content Include="Gui\Users\resources\icons8-transactions-96.png" />
+    <Content Include="Gui\Users\resources\icons8-transactions-961.png" />
+    <Content Include="Gui\Users\resources\icons8-transactions-962.png" />
+    <Content Include="Gui\Users\resources\icons8-withdraw-64 %281%29.png" />
+    <Content Include="Gui\Users\resources\icons8-withdraw-64.png" />
+    <Content Include="Gui\Users\resources\icons8-withdraw-641.png" />
+    <Content Include="Gui\Users\resources\icons8-writer-male-64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

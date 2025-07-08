@@ -1,0 +1,519 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|..\\BankSystem_DataAccess\\BankSystem_DataAccess.vbproj|c:\\users\\ka m al\\desktop\\bankv3.6\\banksystem_dataaccess\\connectionsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2006162-4FA3-4DEE-95FB-C4323A9BFEA3}|..\\BankSystem_DataAccess\\BankSystem_DataAccess.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KA M AL\\Desktop\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsPersonEntity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\clientcardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\clientcardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\clientcardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\clientcardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\editclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\editclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\addclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\addclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\addclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\addclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\globaluser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:globaluser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\checkconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:checkconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\checkconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:checkconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\edituserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\edituserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\edituserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\edituserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\deleteuserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\deleteuserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\deleteuserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\deleteuserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\editclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\editclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\deleteclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\deleteclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\deleteclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\deleteclientform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\people\\addnewperson.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\people\\addnewperson.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\clients\\clientscontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\clients\\clientscontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\adduserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\adduserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\adduserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\adduserform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\usercardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\usercardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\users\\usercardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\users\\usercardcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\gui\\people\\addnewperson.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:gui\\people\\addnewperson.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3FC5EB7A-FA85-4F1B-85CC-2AFF47E55E4E}|BankSystem.vbproj|solutionrelative:mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem_Business\\clsPerson.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem_DataAccess\\clsPersonEntity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KA M AL\\Desktop\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddUserForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\AddUserForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\AddUserForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\Gui\\Users\\AddUserForm.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\Gui\\Users\\AddUserForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T15:06:34.221Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddClientForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\AddClientForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\AddClientForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\AddClientForm.vb",
+              "RelativeToolTip": "Gui\\Clients\\AddClientForm.vb",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAqwKEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T15:48:02.412Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddClientForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\AddClientForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\AddClientForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\AddClientForm.vb [Design]",
+              "RelativeToolTip": "Gui\\Clients\\AddClientForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T15:47:25.297Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\MainForm.vb",
+              "RelativeDocumentMoniker": "MainForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\MainForm.vb",
+              "RelativeToolTip": "MainForm.vb",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T15:05:30.629Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\MainForm.vb",
+              "RelativeDocumentMoniker": "MainForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\MainForm.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\MainForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T15:05:18.003Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnectionSettings.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem_DataAccess\\ConnectionSettings.vb",
+              "RelativeDocumentMoniker": "..\\BankSystem_DataAccess\\ConnectionSettings.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem_DataAccess\\ConnectionSettings.vb",
+              "RelativeToolTip": "..\\BankSystem_DataAccess\\ConnectionSettings.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-08T11:02:46.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "clsUserEntity.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "RelativeDocumentMoniker": "..\\..\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "RelativeToolTip": "..\\..\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-28T15:38:12.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUserEntity.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "RelativeDocumentMoniker": "..\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "RelativeToolTip": "..\\BankSystem_DataAccess\\clsUserEntity.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T20:32:22.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\LoginForm.vb",
+              "RelativeDocumentMoniker": "LoginForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\LoginForm.vb",
+              "RelativeToolTip": "LoginForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:23:48.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsPersonEntity.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "RelativeDocumentMoniker": "..\\..\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "RelativeToolTip": "..\\..\\t_Life\\BankV3.6\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-28T15:38:14.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientCardControl.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\ClientCardControl.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\ClientCardControl.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\ClientCardControl.vb",
+              "RelativeToolTip": "Gui\\Clients\\ClientCardControl.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:01:22.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientCardControl.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\ClientCardControl.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\ClientCardControl.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\ClientCardControl.vb [Design]",
+              "RelativeToolTip": "Gui\\Clients\\ClientCardControl.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:00:21.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditClientForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\EditClientForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\EditClientForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\EditClientForm.vb [Design]",
+              "RelativeToolTip": "Gui\\Clients\\EditClientForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:00:05.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GlobalUser.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\GlobalUser.vb",
+              "RelativeDocumentMoniker": "GlobalUser.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\GlobalUser.vb",
+              "RelativeToolTip": "GlobalUser.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:23:46.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CheckConnection.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\CheckConnection.vb",
+              "RelativeDocumentMoniker": "CheckConnection.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\CheckConnection.vb",
+              "RelativeToolTip": "CheckConnection.vb",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:38:48.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckConnection.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\CheckConnection.vb",
+              "RelativeDocumentMoniker": "CheckConnection.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\CheckConnection.vb [Design]*",
+              "RelativeToolTip": "CheckConnection.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:38:47.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\LoginForm.vb",
+              "RelativeDocumentMoniker": "LoginForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\LoginForm.vb [Design]",
+              "RelativeToolTip": "LoginForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:11:36.815Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditUserForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\EditUserForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\EditUserForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\EditUserForm.vb",
+              "RelativeToolTip": "Gui\\Users\\EditUserForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:13:08.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditUserForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\EditUserForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\EditUserForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\Gui\\Users\\EditUserForm.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\Gui\\Users\\EditUserForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:13:04.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeleteUserForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\DeleteUserForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\DeleteUserForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\DeleteUserForm.vb",
+              "RelativeToolTip": "Gui\\Users\\DeleteUserForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:19:46.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeleteUserForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\DeleteUserForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\DeleteUserForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\Gui\\Users\\DeleteUserForm.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\Gui\\Users\\DeleteUserForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:19:44.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditClientForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\EditClientForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\EditClientForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\EditClientForm.vb",
+              "RelativeToolTip": "Gui\\Clients\\EditClientForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:00:07.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeleteClientForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\DeleteClientForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\DeleteClientForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\DeleteClientForm.vb",
+              "RelativeToolTip": "Gui\\Clients\\DeleteClientForm.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:58:05.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteClientForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\DeleteClientForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\DeleteClientForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\Gui\\Clients\\DeleteClientForm.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\Gui\\Clients\\DeleteClientForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:58:02.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddNewPerson.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\People\\AddNewPerson.vb",
+              "RelativeDocumentMoniker": "Gui\\People\\AddNewPerson.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\Gui\\People\\AddNewPerson.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\Gui\\People\\AddNewPerson.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T19:33:05.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "clsPerson.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem_Business\\clsPerson.vb",
+              "RelativeDocumentMoniker": "..\\..\\BankV3.5\\BankSystem_Business\\clsPerson.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem_Business\\clsPerson.vb",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem_Business\\clsPerson.vb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:12:24.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "clsPersonEntity.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "RelativeDocumentMoniker": "..\\..\\BankV3.5\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem_DataAccess\\clsPersonEntity.vb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T12:12:39.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClientsControl.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Clients\\ClientsControl.vb",
+              "RelativeDocumentMoniker": "Gui\\Clients\\ClientsControl.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\Gui\\Clients\\ClientsControl.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\Gui\\Clients\\ClientsControl.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T20:49:27.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddUserForm.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\AddUserForm.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\AddUserForm.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\AddUserForm.vb",
+              "RelativeToolTip": "Gui\\Users\\AddUserForm.vb",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAkwK0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T15:06:47.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserCardControl.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\UserCardControl.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\UserCardControl.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\UserCardControl.vb",
+              "RelativeToolTip": "Gui\\Users\\UserCardControl.vb",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAqwI0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:13:29.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserCardControl.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\Users\\UserCardControl.vb",
+              "RelativeDocumentMoniker": "Gui\\Users\\UserCardControl.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.5\\BankSystem\\Gui\\Users\\UserCardControl.vb [Design]",
+              "RelativeToolTip": "..\\..\\BankV3.5\\BankSystem\\Gui\\Users\\UserCardControl.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-17T11:29:18.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddNewPerson.vb",
+              "DocumentMoniker": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\People\\AddNewPerson.vb",
+              "RelativeDocumentMoniker": "Gui\\People\\AddNewPerson.vb",
+              "ToolTip": "C:\\Users\\KA M AL\\Desktop\\BankV3.6\\BankSystem\\Gui\\People\\AddNewPerson.vb",
+              "RelativeToolTip": "Gui\\People\\AddNewPerson.vb",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-14T19:33:10.305Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
